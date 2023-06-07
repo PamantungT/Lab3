@@ -1,7 +1,5 @@
 public class PriceObserver extends OrderObserver {
-<<<<<<< HEAD
     public void update() { }
-=======
     public PriceObserver() {
     }
 
@@ -11,5 +9,4 @@ public class PriceObserver extends OrderObserver {
             System.out.println("Price update ! : " + order.getItemCost());
         }
     }
->>>>>>> feature
 }

@@ -1,7 +1,7 @@
 public class QuantityObserver extends OrderObserver {
-<<<<<<< HEAD
+
     public void update() { }
-=======
+
     public QuantityObserver() {
     }
 
@@ -11,5 +11,4 @@ public class QuantityObserver extends OrderObserver {
             System.out.println("Quantity update ! New shipping cost of " + order.getShippingCost() + " !");
         }
     }
->>>>>>> feature
 }

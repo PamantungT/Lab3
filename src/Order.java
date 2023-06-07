@@ -2,9 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Order {
-<<<<<<< HEAD
 
-=======
     private List<OrderObserver> observers =new ArrayList<>();
     private double itemCost;
     private int itemCount;
@@ -40,5 +38,4 @@ public class Order {
     public void detach(OrderObserver observer) {
         this.observers.remove(observer);
     }
->>>>>>> feature
 }

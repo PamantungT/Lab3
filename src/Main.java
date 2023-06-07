@@ -19,5 +19,8 @@ public class Main {
         order.addItem(100, 1);
         order.addItem(100, 1);
 
+        // Try to detach method
+        order.detach(priceObserver);
+
     }
 }
